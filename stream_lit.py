@@ -49,10 +49,8 @@ name_length = len(name)
 st.write("Your name has ",name_length, "characters")
 
 
-
-
-# $ pipreqs /Users/celestedaleo/Desktop/streamLit
-
+x = st.slider('x')  #  this is a widget
+st.write(x, 'squared is', x * x)
 
 
 # To run the app type the following in the terminal:
